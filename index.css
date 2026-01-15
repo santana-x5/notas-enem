@@ -1,0 +1,91 @@
+body{
+     font-family: sans-serif;
+     background-color: #f0f0f0;
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+}
+
+.chat-container{
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 8px ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header{
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.blue-header {
+    background-color: #005696; /* Azul padrão INEP */
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo-enem.logo-inep { font-weight: bold; font-size: 1.5rem; margin-right: 10px; }
+.logo-enem { font-size: 1.5rem; }
+
+.avatar{
+    border-radius: 60%;
+    margin-right: 10px;
+
+}
+
+.mensage-bot{
+    background-color: #eee;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.btn-ano{
+    background-color: #005ca9;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.btn-ano:hover {
+    background-color: #004a88;
+}
+
+.user-reply {
+    background-color: #e2e2e2;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    align-self: flex-end;
+    text-align: right;
+    font-weight: bold;
+}
+
+.final-msg {
+    background-color: #f9f9f9;
+    border-left: 5px solid #005ca9;
+    margin: 20px;
+    padding: 15px;
+    font-style: italic;
+    color: #333;
+}
+
+    .header img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 15px;
+    }
